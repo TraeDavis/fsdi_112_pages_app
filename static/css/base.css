@@ -16,16 +16,18 @@ h1{
 .profile-pic{
     height: 500px;
     width: 600px;
-    border-radius: 50%;
+    border-radius: 10px;
     border: 5px solid rgba(255, 115, 0, 0.294);
     margin-bottom: 2rem; 
     
 }
-.card{
-    background-color: rgba(238, 79, 11, 0.479);
-    color: white;
-    margin-bottom: 2rem;
+.accordion-button:not(.collapsed){
+    color: black;
+    background-color: rgba(224, 112, 19, 0.609);;
 }
-.card-title{
-    border-bottom: 1px solid black;
+.accordion-body{
+    background-color: rgba(255, 255, 255, 0.253);
+}
+.container{
+    width: 600px;
 }

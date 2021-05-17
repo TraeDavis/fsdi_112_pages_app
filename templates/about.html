@@ -3,32 +3,45 @@
 {% block content %}
 <html>
     <body>
-        
+      
             <div class="col">
                     <h1>About Me</h1>
                     <img src="../static/images/firefighters-115800_1920.jpg" class="profile-pic" alt="about-img">
 
-                <div class="card" style="width: 40%;">
-                <div class="card-body">
-                  <h5 class="card-title text-center">Introduction</h5>
-                  <p class="card-text">Hello, my name is <b>Trae Davis</b>. I was a firefighter in the <b>USMC</b> for 4 years. After getting out of the Marines I went to school for IT in <b>Austin,TX</b> and after getting a job in the field realized it was not something that I could see my myself doing as a career. I did alot of research on other tech related fields and really liked the sound of being a web developer. Now I am enrolled in this course and excited to learn and work hard to make a solid career in web development. </p>
-                </div>
-            
-            </div>
-            
-            
-            
-                <div class="card" style="width: 18rem;">
-                    <div class="card-header">
-                      My favorite hobbies are:
+                    <div class="accordion container mb-5" id="accordionExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Introduction
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Hello, my name is <b>Trae Davis</b>. I was a firefighter in the <b>USMC</b> for 4 years. After getting out of the Marines I went to school for IT in <b>Austin,TX</b> and after getting a job in the field realized it was not something that I could see my myself doing as a career. I did alot of research on other tech related fields and really liked the sound of being a web developer. Now I am enrolled in this course and excited to learn and work hard to make a solid career in web development. </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Hobbies
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">Learning new skills.</li>
+                              <li class="list-group-item">Going to concerts and sporting events.</li>
+                              <li class="list-group-item">Buying items at a discount and reselling them.</li>
+                              <li class="list-group-item">Fixing broken electronics, tools, equipment, and machines.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                        </div>
+                      </div>
                     </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Learning new skills.</li>
-                      <li class="list-group-item">Going to concerts and sporting events.</li>
-                      <li class="list-group-item">Buying items at a discount and reselling them.</li>
-                      <li class="list-group-item">Fixing broken electronics, tools, equipment, and machines.</li>
-                    </ul>
-                  </div>
+                
             </div>
     </body>
 </html>
